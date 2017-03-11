@@ -1,0 +1,77 @@
+h1 {
+    text-align: center;
+}
+
+.gauge-container {
+    height: 700px;
+    position: relative;
+    padding-top: 40px;
+    
+    .gauge {
+        width: 150px;
+        border: 1px solid #666;
+        margin: 0 auto;
+        height: 480px;
+        position: relative;
+        
+        .meter {
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            
+            transition: 0.4s ease all;
+        }
+    }
+    
+    &.heather {
+        .image {
+            background-image: url(/assets/heather.jpg);
+        }
+        
+        .meter {
+            background-color: #DFD0AE;
+        }
+    }
+        
+    &.tessa {
+        .image {
+            background-image: url(/assets/tessa.JPG);
+        }
+        .meter {
+            background-color: #D1B7EE;
+        }
+    }
+        
+    &.gwyneth {
+        .image {
+            background-image: url(/assets/gwynnie.JPG);
+        }
+        
+        .meter {
+            background-color: pink;
+        }
+    }
+    
+    .image {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 55px;
+        border-radius: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    
+    h2 {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

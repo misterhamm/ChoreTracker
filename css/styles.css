@@ -1,0 +1,62 @@
+/* line 1, C:/Users/chamm/Documents/MiscProjects/ChoreTracker/css/styles.scss */
+h1 {
+  text-align: center; }
+
+/* line 5, C:/Users/chamm/Documents/MiscProjects/ChoreTracker/css/styles.scss */
+.gauge-container {
+  height: 700px;
+  position: relative;
+  padding-top: 40px; }
+  /* line 10, C:/Users/chamm/Documents/MiscProjects/ChoreTracker/css/styles.scss */
+  .gauge-container .gauge {
+    width: 150px;
+    border: 1px solid #666;
+    margin: 0 auto;
+    height: 480px;
+    position: relative; }
+    /* line 17, C:/Users/chamm/Documents/MiscProjects/ChoreTracker/css/styles.scss */
+    .gauge-container .gauge .meter {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      transition: 0.4s ease all; }
+  /* line 27, C:/Users/chamm/Documents/MiscProjects/ChoreTracker/css/styles.scss */
+  .gauge-container.heather .image {
+    background-image: url(/assets/heather.jpg); }
+  /* line 31, C:/Users/chamm/Documents/MiscProjects/ChoreTracker/css/styles.scss */
+  .gauge-container.heather .meter {
+    background-color: #DFD0AE; }
+  /* line 37, C:/Users/chamm/Documents/MiscProjects/ChoreTracker/css/styles.scss */
+  .gauge-container.tessa .image {
+    background-image: url(/assets/tessa.JPG); }
+  /* line 40, C:/Users/chamm/Documents/MiscProjects/ChoreTracker/css/styles.scss */
+  .gauge-container.tessa .meter {
+    background-color: #D1B7EE; }
+  /* line 46, C:/Users/chamm/Documents/MiscProjects/ChoreTracker/css/styles.scss */
+  .gauge-container.gwyneth .image {
+    background-image: url(/assets/gwynnie.JPG); }
+  /* line 50, C:/Users/chamm/Documents/MiscProjects/ChoreTracker/css/styles.scss */
+  .gauge-container.gwyneth .meter {
+    background-color: pink; }
+  /* line 55, C:/Users/chamm/Documents/MiscProjects/ChoreTracker/css/styles.scss */
+  .gauge-container .image {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 55px;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    /* line 66, C:/Users/chamm/Documents/MiscProjects/ChoreTracker/css/styles.scss */
+    .gauge-container .image:hover {
+      cursor: pointer; }
+  /* line 71, C:/Users/chamm/Documents/MiscProjects/ChoreTracker/css/styles.scss */
+  .gauge-container h2 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); }
+
+/*# sourceMappingURL=styles.css.map */
