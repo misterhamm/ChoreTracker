@@ -17,19 +17,19 @@ h1 {
       bottom: 0;
       transition: 0.4s ease all; }
   .gauge-container.heather .image {
-    background-image: url(/assets/heather.jpg); }
+    background-image: url(./assets/heather.jpg); }
   
   .gauge-container.heather .meter {
     background-color: #DFD0AE; }
  
   .gauge-container.tessa .image {
-    background-image: url(/assets/tessa.JPG); }
+    background-image: url(./assets/tessa.JPG); }
  
   .gauge-container.tessa .meter {
     background-color: #D1B7EE; }
   
   .gauge-container.gwyneth .image {
-    background-image: url(/assets/gwynnie.JPG); }
+    background-image: url(./assets/gwynnie.JPG); }
 
   .gauge-container.gwyneth .meter {
     background-color: pink; }
