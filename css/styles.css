@@ -17,22 +17,36 @@ h1 {
       bottom: 0;
       transition: 0.4s ease all; }
   .gauge-container.heather .image {
-    background-image: url(./assets/heather.jpg); }
+    background-image: url(../assets/heather.jpg); }
   
   .gauge-container.heather .meter {
-    background-color: #DFD0AE; }
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2da2ef+0,70d3ba+100,7db9e8+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top, #1e5799 0%, #2da2ef 0%, #70d3ba 100%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #1e5799 0%,#2da2ef 0%,#70d3ba 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #1e5799 0%,#2da2ef 0%,#70d3ba 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */}
  
   .gauge-container.tessa .image {
-    background-image: url(./assets/tessa.JPG); }
+    background-image: url(../assets/tessa.JPG); }
  
   .gauge-container.tessa .meter {
-    background-color: #D1B7EE; }
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2da2ef+0,b180ed+66 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top, #1e5799 0%, #2da2ef 0%, #b180ed 66%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #1e5799 0%,#2da2ef 0%,#b180ed 66%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #1e5799 0%,#2da2ef 0%,#b180ed 66%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#b180ed',GradientType=0 ); /* IE6-9 */ }
   
   .gauge-container.gwyneth .image {
-    background-image: url(./assets/gwynnie.JPG); }
+    background-image: url(../assets/gwynnie.JPG); }
 
   .gauge-container.gwyneth .meter {
-    background-color: pink; }
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(45deg, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(45deg, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(45deg, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(45deg, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */ }
 
   .gauge-container .image {
     width: 200px;
@@ -53,3 +67,25 @@ h1 {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%); }
+
+
+    @-webkit-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-moz-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-o-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @keyframes rainbow { 
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
